@@ -1,0 +1,23 @@
+-- ALTERACION DE TABLAS 
+ALTER TABLE T_MAE_SUSCRIPCION
+ADD ID_POL_HIBRIDO VARCHAR(20);
+
+ALTER TABLE T_DET_ROLTERCEROSUSCRIPCION
+ADD N_ID_RESULTADOSA INT; 
+
+SPI_T_MultiriesgoPyme
+SPI_T_INCENDIO_MAPFRE_MULTIRIESGO
+
+
+SPS_T_MaeAprobacionRechazo
+SPS_T_SelectHistoriales 
+SPS_T_SelectHistorialesSusc
+SPS_T_MaeEvaluacionDPSValidarSuscripcion_CajaPiura
+SPS_T_RepSuscripcion
+SPS_T_SelectListaExamenes
+SPS_T_SelectListaExamenesM
+SPI_T_MaeTerceroSuscripcion
+SPS_U_MaeAprobarPoliza
+SPS_U_MaeAprobarRechazarPoliza
+SPS_U_MaeDesaprobarPoliza
+SPI_T_MaeSuscripcion
