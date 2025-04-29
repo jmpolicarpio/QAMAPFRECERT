@@ -1,0 +1,6 @@
+use Nucleo
+go
+dbcc shrinkfile (N'Mapfreqoa_log',10)
+go
+dbcc shrinkfile (N'Mapfre',10)
+go
