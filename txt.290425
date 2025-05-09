@@ -8,3 +8,16 @@ go
 exec SPS_T_RepProduccion_new_v4 @pi_id_poliza=0,@pi_id_cotizacion=0,@pi_id_producto=0,@pi_id_plan=0,@pi_id_entidad=0,@pi_id_tipoMoneda=0,@pi_id_tipoFormaPago=0,@pi_id_tipoMedioPago=0,@pi_id_tipoFecha=0,@pi_fec_iniVigencia=NULL,@pi_fec_finVigencia=NULL,@pi_id_estado=0,@pi_id_estadoTransferencia=0,@pi_id_tipoPersona=0,@pi_id_tipoIdentidad=0,@pi_val_docIdentidad=NULL,@pi_apellidos=NULL,@pi_nombres=NULL,@pi_id_territorio=0,@pi_id_zona=0,@pi_id_region=0,@pi_id_canal=0,@pi_id_establecimiento=0,@pi_num_poliza=NULL,@pi_num_certificado=NULL,@pi_id_ramo=0,@pi_ind_orden=0,@pi_ind_orden2=0,@pi_ind_orden3=0,@pi_Pagina=1,@pi_RegxPag=25,@pi_id_usuario=5783,@pi_num_credito=NULL,@pi_id_certificado=0
 
 a0EAFnTjm6uSL2UtLkMIxQ==
+
+-----           -INICIO DE ERROR          ----
+Empresa                  : P & P BMS
+Elaborado                : Programador
+Fecha                    : viernes, 9 de mayo de 2025
+Hora de incidencia       : 01:00:45
+Mensaje de Error         :   Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+The statement has been terminated.
+
+.Net SqlClient Data Provider
+   at PPBMS.GLOBALTPA.LogicaNegocio.TerceroBL.registrarTerceroSuscripcion(TerceroBE objParametro) in C:\Users\JPOLICARPIO\source\repos\QOA.MAPFRE\PPBMS.GLOBALTPA.LogicaNegocio\Terceros\TerceroBL.cs:line 230
+   at PPBMS.GLOBALTPA.ClienteWeb.Controllers.SuscripcionIndividualController.SuscripcionRegistrar(FormCollection formulario) in C:\Users\JPOLICARPIO\source\repos\QOA.MAPFRE\PPBMS.GLOBALTPA.ClienteWeb\Controllers\SuscripcionIndividualController.cs:line 764
+Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
